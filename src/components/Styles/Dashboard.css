@@ -1,0 +1,21 @@
+.display-card-red {
+    border-left:0.4rem solid red;
+    color:red;
+}
+.display-card-yellow {
+    border-left:0.4rem solid gold;
+    color:gold;
+}
+.display-card-blue {
+    border-left:0.4rem solid blueviolet;
+    color:blueviolet;
+}
+.display-card-green {
+    border-left:0.4rem solid seagreen;
+    color:seagreen;
+}
+
+.stat-text {
+    font-family:Verdana;
+    font-size: larger;
+}

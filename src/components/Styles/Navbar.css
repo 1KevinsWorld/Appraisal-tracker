@@ -1,0 +1,13 @@
+.profile-icon {
+    border: 3px solid rgba(68, 67, 67, 0.4);
+    border-radius: 50%;
+}
+
+.nav-profile-picture {
+    height: 100px;
+    width: 100px;
+    max-height:50px;
+    max-width:50px;
+    border-radius:100%;
+    object-fit: cover;
+}

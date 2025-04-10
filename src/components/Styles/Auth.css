@@ -1,0 +1,67 @@
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+  
+  .Auth-blob-bg {
+    margin:0;
+    padding:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: url('../../assets/Auth-blob.svg') no-repeat center center;
+    background-size: cover;
+    z-index:-100;
+  }
+
+  .Auth {
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  .slide-in {
+    animation-name: slideIn;
+  }
+  
+  .slide-out {
+    animation-name: slideOut;
+  }
+
+.btn-custom {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #8112e9;
+    color: white;
+}
+
+.active-action-btn {
+    color: blueviolet;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid blueviolet;
+}
+
+.auth-page {
+    min-height: 100vh;
+}

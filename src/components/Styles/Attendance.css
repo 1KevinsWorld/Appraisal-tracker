@@ -1,0 +1,12 @@
+.text-custom {
+    color:blueviolet;
+    font-weight: 400;
+}
+
+.no-records-icon {
+    max-width: 100%; 
+    height: auto;    
+    width: 90%;    
+    margin: 0 auto;  
+    display: block;  
+}

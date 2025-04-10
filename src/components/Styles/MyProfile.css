@@ -1,0 +1,28 @@
+h3 {
+    margin: 0;
+    margin-top: 1em;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    margin: auto;
+    border: 0.1rem solid;
+    padding: 2px 2px;
+    display: inline-block;
+    border-radius: 100%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    background-color: #fff;
+}
+
+.profile-picture {
+    height:100px;
+    width:100px;
+    border-radius: 100%;
+    object-fit: cover;
+
+}
