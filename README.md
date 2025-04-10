@@ -41,4 +41,4 @@ This project interacts with a backend server deployed on Render. Below are the M
   - POST /api/user/applyleave: Apply leave for the user with provided details
 
 
-You can visit the deployed website [here](https://employee-management-dashboard-dev-it.netlify.app)
+
