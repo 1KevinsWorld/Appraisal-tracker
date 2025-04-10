@@ -1,7 +1,7 @@
 
-# Employee Management Frontend 🎯
+# Appraisal Tracker Frontend 🎯
 
-This is the frontend application for the Employee Management System, built to manage employee profiles, attendance, leaves, and projects. The application interacts with the backend API to provide a seamless user experience.
+This is the frontend application for the Appraisal Tracker System, built to manage employee profiles, attendance, leaves, and projects. The application interacts with the backend API to provide a seamless user experience.
 
 ## 🚀 Features
 
